@@ -492,6 +492,29 @@ button:disabled {
     opacity: 0.66;
     pointer-events: none;
 }
+.carousel-image {
+    width: 100%;
+    border-radius: 0.25rem;
+}
+.glide__arrow {
+    border: none;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-canvas-default-transparent);
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+.glide__arrow:hover {
+    background-color: var(--color-canvas-default);
+}
+.glide__arrow svg {
+    fill: var(--color-fg-default);
+}
 @keyframes bounce {
     0%, 100%, 20%, 50%, 80% {
         -webkit-transform: translateY(0);
@@ -555,7 +578,7 @@ button:disabled {
     .project-panels {
         flex-direction: column-reverse;
     }
-    .project:nth-of-type(2) .project-panels {
+    .project:nth-of-type(3) .project-panels {
         flex-direction: column;
     }
     .project-description {
@@ -650,7 +673,7 @@ button:disabled {
     .section-title {
         font-size: 1.5rem;
     }
-    .section-copy {
+    .section-copy, .section-list-item {
         font-size: 0.875rem;
     }
 }

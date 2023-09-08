@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.theme.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/themes.css" />
@@ -91,11 +93,7 @@
                 </svg>
             </a>
         </div>
-        <div class="hamburger">
-            <div class="hamburger-line"></div>
-            <div class="hamburger-line"></div>
-            <div class="hamburger-line"></div>
-        </div>
+        <div></div>
     </div>
     <main>
         <section class="hero section" id="home">
@@ -268,6 +266,62 @@
                 <h1 class="section-title">💡 Projects</h1>
                 <p class="section-copy">Here are some recent projects I've been working on...</p>
                 <div class="project">
+                    <h2 class="section-subtitle">Michael TV</h2>
+                    <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide">
+                                    <img class="carousel-image" src="./assets/img/explore.png" alt="Michael TV - Explore" />
+                                </li>
+                                <li class="glide__slide">
+                                    <img class="carousel-image" src="./assets/img/live-tv.png" alt="Michael TV - Live TV" />
+                                </li>
+                                <li class="glide__slide">
+                                    <img class="carousel-image" src="./assets/img/title.png" alt="Michael TV - Title" />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="glide__arrows" data-glide-el="controls">
+                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>
+                            </button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+                            </button>
+                        </div>
+                        <div class="glide__bullets" data-glide-el="controls[nav]">
+                            <button class="glide__bullet" data-glide-dir="=0"></button>
+                            <button class="glide__bullet" data-glide-dir="=1"></button>
+                            <button class="glide__bullet" data-glide-dir="=2"></button>
+                        </div>
+                    </div>
+                    <div style="padding-top: 1rem">
+                        <p class="section-copy">A mock streaming service with live TV and on demand programming. I wanted to create a large-scale React application that uses Redux for state management and focuses on both design and performance.</p>
+                        <p class="section-copy">Some notable features include:</p>
+                        <ul class="section-list">
+                            <li class="section-list-item">Performance optimized using virtualization and lazy loading to ensure fast load times and minimal data transfer</li>
+                            <li class="section-list-item">Custom recommendation algorithm using user watch history and weighted randomness to balance relevance and variety</li>
+                            <li class="section-list-item">Custom themeing and themed components using Material UI to ensure a beautiful, consistent user experience</li>
+                        </ul>
+                        <div class="project-cta">
+                            <div class="project-buttons">
+                                <a href="https://github.com/mhollingshead/michael-tv" target="_blank">
+                                    <button class="button">
+                                        <i class="devicon-github-original"></i>
+                                        <span>GitHub</span>
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="project-languages">
+                                <i class="devicon-react-original" title="React"></i>
+                                <i class="devicon-redux-original" title="Redux"></i>
+                                <i class="devicon-materialui-plain" title="Material UI"></i>
+                                <i class="devicon-sass-plain" title="Sass"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
                     <h2 class="section-subtitle">Codelab</h2>
                     <div class="project-panels">
                         <div class="project-description">
@@ -280,12 +334,12 @@
                             </ul>
                             <div class="project-cta">
                                 <div class="project-buttons">
-                                    <a href="https://codelab-demo.herokuapp.com/" target="_blank">
+                                    <!-- <a href="https://codelab-demo.herokuapp.com/" target="_blank">
                                         <button class="button">
                                             <i class="material-icon">public</i>
                                             <span>Demo</span>
                                         </button>
-                                    </a>
+                                    </a> -->
                                     <a href="https://github.com/mhollingshead/codelab" target="_blank">
                                         <button class="button">
                                             <i class="devicon-github-original"></i>
@@ -303,7 +357,7 @@
                             </div>
                         </div>
                         <div class="project-sample">
-                            <img src="assets/img/codelab.png" width="100%" />
+                            <img src="assets/img/codelab.png" alt="codelab" width="100%" />
                         </div>
                     </div>
                 </div>
@@ -755,10 +809,16 @@
         </section>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.1/svg.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js"></script>
     <script src="assets/lib/ncube.js"></script>
     <script src="js/common/utils.js"></script>
     <script src="js/graphic.js"></script>
     <script src="js/ncubeDemo.js"></script>
     <script src="js/listeners.js"></script>
+    <script>new Glide('.glide', {
+        type: 'carousel',
+        autoplay: 4000,
+        animationDuration: 1000
+    }).mount()</script>
 </body>
 </html>
