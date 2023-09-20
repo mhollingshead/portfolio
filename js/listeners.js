@@ -14,7 +14,7 @@ document.addEventListener('mousemove', e => {
     const eyeHeight = eyeElement.getBoundingClientRect().height;
     const pupils = {
         x: eyeElement.getBoundingClientRect().left + 0.45 * eyeWidth,
-        y: eyeElement.getBoundingClientRect().top + 0.35 * eyeHeight
+        y: eyeElement.getBoundingClientRect().top + 0.3 * eyeHeight
     }
 
     const offsetX = mouse.x - pupils.x;

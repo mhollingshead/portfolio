@@ -66,6 +66,7 @@ nCube.vertices.forEach((vertex, i) => {
 });
 
 let angle = 0;
+
 const rotate = setInterval(() => {
     if (!isElementInViewport(document.querySelector('.graphic-wrapper'))) return;
     nCube.reset().rotate(angle, [[0, 1], [2, 3], [3, 1]]).updateLogos();
