@@ -1,0 +1,228 @@
+.Hero {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    &__content {
+        padding: 96px 24px;
+        width: 100%;
+        height: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    &__panels {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__panel {
+        width: 50%;
+        position: relative;
+        overflow: visible;
+
+        &:nth-child(2) {
+            display: flex;
+            justify-content: center;
+            overflow: visible;
+        }
+        &:nth-child(1) {
+            min-height: max-content;
+        }
+    }
+
+    &__display-text {
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent;
+        font-size: 44px;
+        line-height: 1;
+    }
+}
+
+.Graphic {
+    width: 600px;
+    height: 600px;
+    transform: scale(1.33);
+    transform-origin: center;
+    position: relative;
+    pointer-events: none;
+    mask: radial-gradient(circle, black, transparent 80%);
+    pointer-events: none;
+    user-select: none;
+
+    &__inner {
+        width: 600px;
+        height: 600px;
+        position: relative;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+}
+
+.Portrait {
+    &--light {
+        .Portrait__layer {
+            filter: contrast(1.05) brightness(2.25) saturate(0.66) hue-rotate(-10deg);
+        }
+    }
+
+    &__layer {
+        width: 180px;
+        position: absolute;
+        top: 200px;
+        left: 220px;
+        filter: brightness(1.1) saturate(0.8) hue-rotate(-24deg);
+
+        &--1 {
+            z-index: 2;
+        }
+
+        &--2 {
+            z-index: 3;
+        }
+
+        &--3 {
+            z-index: 4;
+        }
+    }
+}
+
+.Particles {
+    width: 100%;
+    height: 100%;
+
+    &__particle {
+        position: absolute;
+        transform-origin: center;
+    }
+}
+
+.ScrollIndicator {
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 2px;
+    border-style: solid;
+    width: 32px;
+    height: 48px;
+    border-radius: 16px;
+    animation: fadein 10s;
+
+    &::after {
+        content: '';
+        border-width: 2px;
+        border-style: solid;
+        border-color: inherit;
+        display: block;
+        width: 2px;
+        height: 2px;
+        border-radius: 2px;
+        position: absolute;
+        top: 12px;
+        left: calc(50% - 2px);
+        animation: scrollwheel 5s infinite;
+        animation-delay: 10s;
+        transform-origin: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Hero {
+        &__content {
+            padding: 72px 24px;
+        }
+        &__panels {
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+        &__panel {
+            width: max-content;
+
+            &:nth-child(1) {
+                margin-top: -32px;
+            }
+        }
+    }
+    .ScrollIndicator {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Hero {
+        &__content {
+            padding: 64px 24px;
+        }
+        &__panels {
+            margin-top: -64px;
+        }
+        &__panel {
+            width: auto;
+        }
+        &__display-text {
+            font-size: 2.5rem;
+        }
+    }
+    .MuiTypography-h5 {
+        font-size: 1.25rem !important;
+    }
+}
+
+@keyframes scrollwheel {
+    0% {
+        transform: translateY(0);
+        height: 2px;
+    }
+    76% {
+        transform: translateY(0);
+        height: 2px;
+    }
+    78% {
+        transform: translateY(0);
+        height: 12px;
+    }
+    84% {
+        transform: translateY(8px);
+        height: 2px;
+    }
+    88% {
+        transform: translateY(6px);
+        height: 2px;
+    }
+    88% {
+        transform: translateY(0px);
+        height: 2px;
+    }
+    90% {
+        transform: translateY(0);
+        height: 12px;
+    }
+    96% {
+        transform: translateY(8px);
+        height: 2px;
+    }
+    100% {
+        transform: translateY(6px);
+        height: 2px;
+    }
+    100% {
+        transform: translateY(0px);
+        height: 2px;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    98% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

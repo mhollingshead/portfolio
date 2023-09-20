@@ -1,0 +1,87 @@
+.Header {
+    padding: 12px 0;
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1000;
+
+    &__content {
+        padding: 0 24px;
+        width: 100%;
+        max-width: 1024px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    &__logo {
+        height: 28px;
+    }
+
+    &__link {
+        &::before {
+            content: '#';
+            opacity: 0;
+        }
+
+        &:hover::before {
+            opacity: 1;
+        }
+    }
+}
+
+.MobileHeader {
+    padding: 12px 0;
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    width: 100%;
+    z-index: 1000;
+    display: none;
+
+    &__content {
+        padding: 0 24px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+    }
+}
+
+.MobileNav {
+    &__head {
+        padding: 12px 24px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+    }
+    &__content {
+        padding: 24px;
+        min-height: calc(100% - 58px);
+        display: flex;
+        flex-direction: column;
+    }
+    &__link {
+        min-width: 200px;
+    }
+}
+
+.MuiModal-backdrop {
+    backdrop-filter: blur(8px);
+}
+
+@media only screen and (max-width: 800px) {
+    .Header {
+        display: none;
+    }
+    .MobileHeader {
+        display: flex;
+    }
+}

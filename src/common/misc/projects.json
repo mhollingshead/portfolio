@@ -1,0 +1,369 @@
+{
+    "apps": [
+        {
+            "name": "Notes App",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/18-notes-app/build",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-react-original",
+                "devicon-redux-original",
+                "devicon-sass-original"
+            ]
+        },
+        {
+            "name": "Type a Book",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/16-type-a-book/build",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-vuejs-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "My Timers",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/12-my-timers/build",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-vuejs-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "Keyword Extractor",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/8-keyword-extractor/",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "Weather Color",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/7-weather-color",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "Wheel. Of. Something!",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/1-wheel-of-something/",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "Geotrainr",
+            "link": "https://github.com/mhollingshead/geotrainr",
+            "24hr": false,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-react-original",
+                "devicon-sass-original"
+            ]
+        },
+        {
+            "name": "Spazm",
+            "link": "https://github.com/mhollingshead/spazm",
+            "24hr": false,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-react-original",
+                "devicon-sass-original"
+            ]
+        },
+        {
+            "name": "px to rem",
+            "link": "https://mhollingshead.github.io/px-to-rem/",
+            "24hr": false,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "PokerStars Hand Map",
+            "link": "https://mhollingshead.github.io/PokerStarsHandMap",
+            "24hr": false,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "Vertex Red",
+            "link": "https://mhollingshead.github.io/vertexred",
+            "24hr": false,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "Movment",
+            "link": "https://github.com/mhollingshead/movment",
+            "24hr": false,
+            "tech": [
+                "devicon-python-plain",
+                "devicon-django-plain",
+                "devicon-php-plain",
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        }
+    ],
+    "games": [
+        {
+            "name": "Hello, Match!",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/14-hello-match/build",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-vuejs-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "RGBordle",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/9-rgbordle/build",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-react-original",
+                "devicon-sass-original"
+            ]
+        },
+        {
+            "name": "Tic-Tac-Toe Engine",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/6-tic-tac-toe-engine/build",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-react-original",
+                "devicon-sass-original"
+            ]
+        },
+        {
+            "name": "Elfenroads",
+            "link": "https://github.com/COMP361/f2021-hexanome-01",
+            "24hr": false,
+            "tech": [
+                "devicon-typescript-plain",
+                "devicon-react-original",
+                "devicon-sass-original",
+                "devicon-graphql-plain"
+            ]
+        },
+        {
+            "name": "Translyric",
+            "link": "https://github.com/mhollingshead/translyric-game",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-react-original",
+                "devicon-sass-original"
+            ]
+        },
+        {
+            "name": "Lua Games",
+            "link": "https://github.com/mhollingshead/lua-games",
+            "24hr": false,
+            "tech": [
+                "devicon-lua-plain-wordmark"
+            ]
+        },
+        {
+            "name": "Song Game",
+            "link": "https://github.com/mhollingshead/songgame_app",
+            "24hr": false,
+            "tech": [
+                "devicon-nodejs-plain",
+                "devicon-express-original",
+                "devicon-socketio-original",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "C++ Blackjack",
+            "link": "https://github.com/mhollingshead/cpp-Blackjack",
+            "24hr": false,
+            "tech": [
+                "devicon-cplusplus-plain"
+            ]
+        }
+    ],
+    "visualizations": [
+        {
+            "name": "Solar System Visualization",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/11-solar-system-visualization",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "Pixel Battle",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/4-pixel-battle",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "BFS Pathfinding Visualization",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/3-pathfinding/",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "Big Brother Stats",
+            "link": "https://mhollingshead.github.io/BBStats",
+            "24hr": false,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "Hypercube Rotations",
+            "link": "https://mhollingshead.github.io/HypercubeRotations",
+            "24hr": false,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-threejs-original",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "Sorting Algorithm Visualization",
+            "link": "https://mhollingshead.github.io/VisualSort",
+            "24hr": false,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        }
+    ],
+    "apis": [
+        {
+            "name": "Open Dictionary",
+            "link": "https://github.com/mhollingshead/open-dictionary",
+            "24hr": false,
+            "tech": [
+                "devicon-nodejs-plain"
+            ]
+        },
+        {
+            "name": "Historic Billboard Hot 100 Data",
+            "link": "https://github.com/mhollingshead/billboard-hot-100",
+            "24hr": false,
+            "tech": [
+                "devicon-nodejs-plain"
+            ]
+        },
+        {
+            "name": "GitHub LaTeX",
+            "link": "https://github.com/mhollingshead/30-days-30-projects/blob/main/15-github-latex",
+            "24hr": true,
+            "tech": [
+                "devicon-nodejs-plain",
+                "devicon-express-original"
+            ]
+        },
+        {
+            "name": "Random Dictionary Domain",
+            "link": "https://mhollingshead.github.io/30-days-30-projects/13-random-dictionary-domain/demo/",
+            "24hr": true,
+            "tech": [
+                "devicon-nodejs-plain",
+                "devicon-express-original"
+            ]
+        },
+        {
+            "name": "Equation Solver",
+            "link": "https://github.com/mhollingshead/30-days-30-projects/blob/main/5-equation-solver",
+            "24hr": true,
+            "tech": [
+                "devicon-nodejs-plain",
+                "devicon-express-original"
+            ]
+        }
+    ],
+    "extensions": [
+        {
+            "name": "GitHub Flavored Markdown Viewer",
+            "link": "https://github.com/mhollingshead/30-days-30-projects/tree/main/17-gfm-viewer",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "Theme Explorer",
+            "link": "https://github.com/mhollingshead/30-days-30-projects/blob/main/10-theme-explorer",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        },
+        {
+            "name": "GitHub User Linguist Chart",
+            "link": "https://github.com/mhollingshead/github-user-linguist-chart",
+            "24hr": false,
+            "tech": [
+                "devicon-nodejs-plain",
+                "devicon-express-original",
+                "devicon-javascript-plain",
+                "devicon-html5-plain",
+                "devicon-css3-plain"
+            ]
+        }
+    ],
+    "libraries": [
+        {
+            "name": "tableme.js",
+            "link": "https://github.com/mhollingshead/30-days-30-projects/blob/main/2-tableme",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain"
+            ]
+        },
+        {
+            "name": "DevToolsConsole.js",
+            "link": "https://github.com/mhollingshead/30-days-30-projects/tree/main/19-devtools-console",
+            "24hr": true,
+            "tech": [
+                "devicon-javascript-plain"
+            ]
+        }
+    ]
+}

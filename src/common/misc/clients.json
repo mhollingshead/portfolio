@@ -1,0 +1,40 @@
+[
+    {
+        "name": "MUS",
+        "link": "",
+        "logo": "mus.png",
+        "logoMode": "dark",
+        "margin": true
+    },
+    {
+        "name": "Harlo Group",
+        "link": "",
+        "logo": "harlo-group.png",
+        "logoMode": "light",
+        "margin": true
+    },
+    {
+        "name": "Spinco",
+        "link": "",
+        "logo": "spinco.png",
+        "logoMode": "light"
+    },
+    {
+        "name": "Moneybag Vodka",
+        "link": "",
+        "logo": "moneybag.png",
+        "logoMode": "dark"
+    },
+    {
+        "name": "Valerie",
+        "link": "",
+        "logo": "valerie.png",
+        "logoMode": "dark"
+    },
+    {
+        "name": "Roses",
+        "link": "",
+        "logo": "roses.png",
+        "logoMode": "dark"
+    }
+]
