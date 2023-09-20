@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.15a94a09.css",
-    "main.js": "/portfolio/static/js/main.eab0ad2b.js",
-    "static/media/explore.png": "/portfolio/static/media/explore.a264e980b10f48b67318.png",
-    "static/media/search.png": "/portfolio/static/media/search.c2c95878707f681f7878.png",
-    "static/media/title.png": "/portfolio/static/media/title.99217a14cf18461c4ec3.png",
-    "static/media/live-tv.png": "/portfolio/static/media/live-tv.08c77b0444f66603dc21.png",
-    "static/media/portrait-layer-1.png": "/portfolio/static/media/portrait-layer-1.1262ec5695b6dbdbaef0.png",
-    "static/media/moneybag.png": "/portfolio/static/media/moneybag.08435e2d050b36e5c379.png",
-    "static/media/codelab.png": "/portfolio/static/media/codelab.e5707eaf3d7adce8f435.png",
-    "static/media/spinco.png": "/portfolio/static/media/spinco.fbf88906be182228bf3f.png",
-    "static/media/portrait-layer-3.png": "/portfolio/static/media/portrait-layer-3.fe3b309aabea7f764976.png",
-    "static/media/valerie.png": "/portfolio/static/media/valerie.43d8511dc9e7754ea214.png",
-    "static/media/roses.png": "/portfolio/static/media/roses.8b89fd60087d52df2531.png",
-    "static/media/harlo-group.png": "/portfolio/static/media/harlo-group.1adcb17f991d6f0ac786.png",
-    "static/media/portrait-layer-2.png": "/portfolio/static/media/portrait-layer-2.cbd83ce7e3f3169a9563.png",
-    "static/media/mus.png": "/portfolio/static/media/mus.c61542f7e8254e27ef11.png",
-    "index.html": "/portfolio/index.html",
-    "static/media/logo.svg": "/portfolio/static/media/logo.599c1631965dff7f5ce5a4fd617ae088.svg",
-    "main.15a94a09.css.map": "/portfolio/static/css/main.15a94a09.css.map",
-    "main.eab0ad2b.js.map": "/portfolio/static/js/main.eab0ad2b.js.map"
+    "main.css": "/static/css/main.15a94a09.css",
+    "main.js": "/static/js/main.5675b707.js",
+    "static/media/explore.png": "/static/media/explore.a264e980b10f48b67318.png",
+    "static/media/search.png": "/static/media/search.c2c95878707f681f7878.png",
+    "static/media/title.png": "/static/media/title.99217a14cf18461c4ec3.png",
+    "static/media/live-tv.png": "/static/media/live-tv.08c77b0444f66603dc21.png",
+    "static/media/portrait-layer-1.png": "/static/media/portrait-layer-1.1262ec5695b6dbdbaef0.png",
+    "static/media/moneybag.png": "/static/media/moneybag.08435e2d050b36e5c379.png",
+    "static/media/codelab.png": "/static/media/codelab.e5707eaf3d7adce8f435.png",
+    "static/media/spinco.png": "/static/media/spinco.fbf88906be182228bf3f.png",
+    "static/media/portrait-layer-3.png": "/static/media/portrait-layer-3.fe3b309aabea7f764976.png",
+    "static/media/valerie.png": "/static/media/valerie.43d8511dc9e7754ea214.png",
+    "static/media/roses.png": "/static/media/roses.8b89fd60087d52df2531.png",
+    "static/media/harlo-group.png": "/static/media/harlo-group.1adcb17f991d6f0ac786.png",
+    "static/media/portrait-layer-2.png": "/static/media/portrait-layer-2.cbd83ce7e3f3169a9563.png",
+    "static/media/mus.png": "/static/media/mus.c61542f7e8254e27ef11.png",
+    "index.html": "/index.html",
+    "static/media/logo.svg": "/static/media/logo.599c1631965dff7f5ce5a4fd617ae088.svg",
+    "main.15a94a09.css.map": "/static/css/main.15a94a09.css.map",
+    "main.5675b707.js.map": "/static/js/main.5675b707.js.map"
   },
   "entrypoints": [
     "static/css/main.15a94a09.css",
-    "static/js/main.eab0ad2b.js"
+    "static/js/main.5675b707.js"
   ]
 }
