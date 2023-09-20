@@ -211,7 +211,13 @@ const Projects = () => {
                         justifyContent='space-between'
                         sx={{ mt: 3 }}
                     >
-                        <Button variant='outlined' startIcon={<GitHubIcon />}>
+                        <Button
+                            variant='outlined'
+                            startIcon={<GitHubIcon />}
+                            component='a'
+                            href='https://github.com/mhollingshead/michael-tv'
+                            target='_blank'
+                        >
                             GitHub
                         </Button>
                         <Stack
@@ -341,7 +347,13 @@ const Projects = () => {
                                 justifyContent='space-between'
                                 sx={{ mt: 3 }}
                             >
-                                <Button variant='outlined' startIcon={<GitHubIcon />}>
+                                <Button
+                                    variant='outlined'
+                                    startIcon={<GitHubIcon />}
+                                    component='a'
+                                    href='https://github.com/mhollingshead/codelab'
+                                    target='_blank'
+                                >
                                     GitHub
                                 </Button>
                                 <Stack
@@ -486,10 +498,22 @@ const Projects = () => {
                                 sx={{ mt: 3 }}
                             >
                                 <Stack direction='row' spacing={1}>
-                                    <Button variant='outlined' startIcon={<PublicIcon />}>
+                                    <Button
+                                        variant='outlined'
+                                        startIcon={<PublicIcon />}
+                                        component='a'
+                                        href='https://mhollingshead.github.io/ncube/'
+                                        target='_blank'
+                                    >
                                         Demo
                                     </Button>
-                                    <Button variant='outlined' startIcon={<GitHubIcon />}>
+                                    <Button
+                                        variant='outlined'
+                                        startIcon={<GitHubIcon />}
+                                        component='a'
+                                        href='https://github.com/mhollingshead/ncube'
+                                        target='_blank'
+                                    >
                                         GitHub
                                     </Button>
                                 </Stack>
@@ -867,7 +891,9 @@ const Projects = () => {
                             sx={{ filter: theme.palette.mode === 'dark' ? 'invert(1)' : '' }}
                             ref={scrollerRef}
                             onMouseEnter={() => cancelAnimationFrame(animationRef.current)}
-                            onMouseLeave={() => (animationRef.current = requestAnimationFrame(animate))}
+                            onMouseLeave={() =>
+                                (animationRef.current = requestAnimationFrame(animate))
+                            }
                         >
                             {[...clients, ...clients].map((client, i) => (
                                 <img
