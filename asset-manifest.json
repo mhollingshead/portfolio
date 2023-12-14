@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3bd0e31.css",
-    "main.js": "/static/js/main.c3b713c7.js",
+    "main.css": "/static/css/main.53a72235.css",
+    "main.js": "/static/js/main.28eb4404.js",
     "static/media/explore.png": "/static/media/explore.a264e980b10f48b67318.png",
     "static/media/search.png": "/static/media/search.c2c95878707f681f7878.png",
     "static/media/title.png": "/static/media/title.99217a14cf18461c4ec3.png",
@@ -11,18 +11,20 @@
     "static/media/codelab.png": "/static/media/codelab.e5707eaf3d7adce8f435.png",
     "static/media/spinco.png": "/static/media/spinco.fbf88906be182228bf3f.png",
     "static/media/portrait-layer-3.png": "/static/media/portrait-layer-3.fe3b309aabea7f764976.png",
+    "static/media/block-plan.png": "/static/media/block-plan.f6907fe8b88bfd600c64.png",
     "static/media/valerie.png": "/static/media/valerie.43d8511dc9e7754ea214.png",
     "static/media/roses.png": "/static/media/roses.8b89fd60087d52df2531.png",
+    "static/media/patria.png": "/static/media/patria.f95d67e49c911972f026.png",
     "static/media/harlo-group.png": "/static/media/harlo-group.1adcb17f991d6f0ac786.png",
     "static/media/portrait-layer-2.png": "/static/media/portrait-layer-2.cbd83ce7e3f3169a9563.png",
     "static/media/mus.png": "/static/media/mus.c61542f7e8254e27ef11.png",
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.c53247a7f62dfddc6404b555250ea5e0.svg",
-    "main.c3bd0e31.css.map": "/static/css/main.c3bd0e31.css.map",
-    "main.c3b713c7.js.map": "/static/js/main.c3b713c7.js.map"
+    "main.53a72235.css.map": "/static/css/main.53a72235.css.map",
+    "main.28eb4404.js.map": "/static/js/main.28eb4404.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3bd0e31.css",
-    "static/js/main.c3b713c7.js"
+    "static/css/main.53a72235.css",
+    "static/js/main.28eb4404.js"
   ]
 }
