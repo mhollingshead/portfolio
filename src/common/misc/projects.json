@@ -127,6 +127,19 @@
     ],
     "games": [
         {
+            "name": "ThisDateIn",
+            "link": "https://thisdate.in/",
+            "24hr": false,
+            "tech": [
+                "devicon-javascript-plain",
+                "devicon-react-original",
+                "devicon-materialui-plain",
+                "devicon-redux-original",
+                "devicon-sass-original",
+                "devicon-nodejs-plain"
+            ]
+        },
+        {
             "name": "Hello, Match!",
             "link": "https://mhollingshead.github.io/30-days-30-projects/14-hello-match/build",
             "24hr": true,

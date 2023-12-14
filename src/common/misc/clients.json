@@ -36,5 +36,23 @@
         "link": "",
         "logo": "roses.png",
         "logoMode": "dark"
+    },
+    {
+        "name": "Byblos",
+        "link": "",
+        "logo": "byblos.png",
+        "logoMode": "dark"
+    },
+    {
+        "name": "Patria",
+        "link": "",
+        "logo": "patria.png",
+        "logoMode": "dark"
+    },
+    {
+        "name": "Block Plan Studios",
+        "link": "",
+        "logo": "block-plan.png",
+        "logoMode": "light"
     }
 ]
